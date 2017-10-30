@@ -24,7 +24,7 @@ header {
 /* Ask how to adapt font size for responsiveness */
 /* "Going Underground" + padding which helps with size of image */	
 h1{
-	font-family:"Roboto";
+	font-family:"Railway";
 	font-size:75px;
 	padding-top: 25px;
 	padding-bottom:25px;
@@ -34,7 +34,7 @@ h1{
 h2{
 	font-family: "Roboto"
 	font-size:24px;
-	color: #ff8428;
+	color: rgb(0,25,168);
 	}
 p {
 	text-align: left;
@@ -161,7 +161,7 @@ a.navlink {
 }
 
 footer {
-   /* background-image: url("../images/tuebmapsnip.jpg");
+/*    background-image: url("../images/tuebmapsnip.jpg");
 	background-size:cover;*/
 	text-align: center;
 	font-size: 10px;
@@ -172,8 +172,9 @@ footer {
 	}
 
    body{
-      background: #e5e5e5;
-      font-family: "Roboto";
+   	background-image: url("../images/tuebmapsnip.jpg");
+	background-size:cover;
+  	font-family: "Roboto";
       }
 	  
     p {
@@ -183,7 +184,7 @@ footer {
 
 #Content {
 	text-align:left;
-	background: rgba(161,165,167,0.3);
+	background: white;
 /*	background-color: white;*/
 	width:80%;
 	border: 4px double rgba(255,211,41,1);
