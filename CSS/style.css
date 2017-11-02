@@ -205,6 +205,7 @@ color: #e06f1a}
 
 ul.bline-list {
 	list-style-type: square;
+	color: white;
 }
 
 /* form{
@@ -214,7 +215,8 @@ ul.bline-list {
 	height: 800px;
 } */
 
-/* <iframe style="align:left"> */
+ /*<iframe style="align:center">*/ 
+ <iframe style="float:center">
 
 footer {
 /*    background-image: url("../images/table");
