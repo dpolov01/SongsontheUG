@@ -5,7 +5,7 @@
 	src: url("Railway.otf");
 }
 
-/* Main background image */
+/* Background image for header */
 header {
     text-align: center;
     background-image: url("../images/tube.jpg");
@@ -56,7 +56,7 @@ li.nav {
 /* Active nav links */
 .active {
     color: #ff8428;
-	ffont-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size:30px;
 	font-weight:bold;
 	letter-spacing:2.5px;
@@ -129,7 +129,7 @@ a.navlink {
 }
 
 
-	
+/* Social Media images*/
 .smimage {
 	text-decoration:none;
 	border-radius:50%;
@@ -161,19 +161,21 @@ a.navlink {
 }
 
 footer {
-/*    background-image: url("../images/tuebmapsnip.jpg");
+/*    background-image: url("../images/table");
 	background-size:cover;*/
 	text-align: center;
-	font-size: 10px;
+	font-size: 25px;
+	color: #ff8428;
 	border: 50px;
 	padding-top: 10px;
-	background-color: #e5e5e5;
+	background-color: #1e2126;
   	background-blend-mode: multiply;
 	}
 
+.footerlink{
+color: #e06f1a}
    body{
-   	background-image: url("../images/tuebmapsnip.jpg");
-	background-size:cover;
+   	background: #1e2126;
   	font-family: "Roboto";
       }
 	  
@@ -182,6 +184,7 @@ footer {
       padding: 5px 5px 5px 5px;
     }
 
+	
 #Content {
 	text-align:left;
 	background: white;
@@ -202,15 +205,25 @@ ul.bline-list {
 <iframe style="align:left">
 
 footer {
-   /* background-image: url("../images/tuebmapsnip.jpg");
+/*    background-image: url("../images/table");
 	background-size:cover;*/
 	text-align: center;
-	font-size: 10px;
+	font-size: 25px;
+	color: #ff8428;
 	border: 50px;
 	padding-top: 10px;
-	background-color: #e5e5e5;
+	background-color: #1e2126;
   	background-blend-mode: multiply;
 	}
+
+.footerlink{
+color: #e06f1a}
+.footerlink:hover{
+	color: rgba(255,211,41,1);
+	text-decoration:none;
+	text-shadow: 5px 5px 5px black;
+}
+	
 /*this is for medium screens*/
   @media (max-width: 768px){
        h1 {
@@ -226,6 +239,7 @@ footer {
 	background-size:cover;*/
 	text-align: center;
 	font-size: 10px;
+	color: #ff8428;
 	border: 50px;
 	padding-top: 10px;
 	background-color: #e5e5e5;
