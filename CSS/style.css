@@ -24,18 +24,23 @@ header {
 /* Ask how to adapt font size for responsiveness */
 /* "Going Underground" + padding which helps with size of image */	
 h1{
-	font-family:"Railway";
-	font-size:75px;
+	font-family:"Abel",sans-serif;
+	font-size:60px;
 	padding-top: 25px;
 	padding-bottom:25px;
 	text-transform:uppercase;
 	color:#efe8e8;
+	color: #fff;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff8428, 0 0 30px #ff8428, 0 0 40px #ff8428, 0 0 50px #ff8428, 0 0 75px #ff8428;
+	letter-spacing: 5px;
+
 	}
 h2{
-	font-family: "Roboto"
-	font-size:24px;
-	color: rgb(0,25,168);
+	font-family: "Roboto";
+	font-size: 24px;
+	color: #ff8428; 
 	}
+
 p {
 	text-align: left;
 	padding: 20px 20px 20px 20px;
@@ -168,7 +173,6 @@ footer {
 	color: #ff8428;
 	border: 50px;
 	padding-top: 10px;
-	background-color: #1e2126;
   	background-blend-mode: multiply;
 	}
 
@@ -176,20 +180,22 @@ footer {
 color: #e06f1a}
    body{
    	background: #1e2126;
+	background: -webkit-linear-gradient(#1e2126, #261f1e); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1e2126, #261f1e); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1e2126, #261f1e); /* For Firefox 3.6 to 15 */
   	font-family: "Roboto";
       }
 	  
     p {
-      font-size: 20px;
-      padding: 5px 5px 5px 5px;
+      font-size: 18px;
+      padding: 15px 15px 15px 15px;
+	  color: #c4c1bc;
     }
 
 	
 #Content {
 	text-align:left;
-	background: white;
-/*	background-color: white;*/
-	width:80%;
+	width:95%;
 	border: 4px double rgba(255,211,41,1);
 	margin: 0 auto;
 	padding-left: 10px;
@@ -201,8 +207,14 @@ ul.bline-list {
 	list-style-type: square;
 }
 
+/* form{
+	background-image:url("../images/tubemapbackground.jpg");
+	font-family:Roboto;
+	font-size: 30px;
+	height: 800px;
+} */
 
-<iframe style="align:left">
+/* <iframe style="align:left"> */
 
 footer {
 /*    background-image: url("../images/table");
@@ -212,17 +224,19 @@ footer {
 	color: #ff8428;
 	border: 50px;
 	padding-top: 10px;
-	background-color: #1e2126;
+
   	background-blend-mode: multiply;
 	}
 
 .footerlink{
-color: #e06f1a}
+	color: #e06f1a;
+	text-decoration:none;
+	}
+	
 .footerlink:hover{
 	color: rgba(255,211,41,1);
-	text-decoration:none;
 	text-shadow: 5px 5px 5px black;
-}
+	}
 	
 /*this is for medium screens*/
   @media (max-width: 768px){
@@ -242,7 +256,6 @@ color: #e06f1a}
 	color: #ff8428;
 	border: 50px;
 	padding-top: 10px;
-	background-color: #e5e5e5;
   	background-blend-mode: multiply;
 	}
 
@@ -260,9 +273,9 @@ color: #e06f1a}
 	background-size:cover;*/
 	text-align: center;
 	font-size: 10px;
+	color: #ff8428;
 	border: 50px;
 	padding-top: 10px;
-	background-color: #e5e5e5;
   	background-blend-mode: multiply;
 	}
 
